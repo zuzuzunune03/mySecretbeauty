@@ -1,0 +1,913 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 120px;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+
+.header-contanior {
+    height: 50px;
+    width: 1200px;
+    line-height: 120px;
+    padding-left: 60px;
+    padding-top: 40px;
+
+}
+
+.header-logo {
+    float: left;
+    height: 60px;
+}
+
+.header-right {
+    float: right;
+    line-height: 50px;
+}
+
+.header-right li {
+    float: left;
+    padding-left: 70px;
+}
+
+.header-right ul {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.concept {
+    height: 1020px;
+    background-color: #F2E3DC;
+}
+
+.concept-contanior {
+    padding-top: 220px;
+    height: 590px;
+    width: 1170px;
+    float: right;
+    position: relative;
+}
+
+.conimg {
+    float: right;
+}
+
+.con-img {
+    height: 590px;
+}
+
+.conname {
+    position: absolute;
+    top: 313px;
+    left: 200px;
+}
+
+.con-name {
+    height: 313px;
+}
+
+.contex {
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 387px;
+}
+
+.con-line {
+    height: 387px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.con-tex h1 {
+    font-weight: lighter;
+    font-family: "ヒラギノ明朝 Pro";
+    font-size: 24px;
+    color: #333333;
+}
+
+.story {
+    height: 942px;
+    background-color: #F2E3DC;
+}
+
+.story-contanior {
+    height: 750px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.storyimg1 {
+    height: 300px;
+}
+
+.storyimg2 {
+    height: 270px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.story-contanior h1 {
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 3px;
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    right: 95px;
+}
+
+.no1 {
+    height: 253px;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 220px;
+}
+
+.story-tex {
+    height: 122.6px;
+    position: absolute;
+    right: 0px;
+    top: 538px;
+}
+
+.story-tex p {
+    font-family: "ヒラギノ明朝 Pro";
+    color: #333333;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    text-align: left;
+    z-index: 3;
+}
+
+.no2 {
+    height: 132px;
+    position: absolute;
+    bottom: 0px;
+    right: 399px;
+    z-index: 1;
+}
+
+.mid-img {
+    width: 100%;
+    display: block;
+}
+
+.product {
+    height: 890px;
+    background-color: #DFE1E1;
+}
+
+.product-contanior {
+    height: 731px;
+    width: 79%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 35px;
+}
+
+.pro-name {
+    height: 733px;
+    width: 171px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    float: left;
+}
+
+.pro-name h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: lighter;
+    color: #93564E;
+    letter-spacing: 3px;
+    padding-top: 16px;
+}
+
+.pro-line {
+    height: 218.5px;
+    position: absolute;
+    top: 75px;
+    left: 23px;
+}
+
+.pro-pros {
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.proitem {
+    float: left;
+    width: 253.6px;
+    height: 627px;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.itemimg {
+    height: 138px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 61px;
+}
+
+.itemna {
+    height: 57px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 59px;
+}
+
+.proitem h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #824A3D;
+    letter-spacing: 1px;
+    border-bottom: 0.25px solid #824A3D;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.itemtex {
+    height: 67px;
+    padding-top: 55px;
+    float: center;
+}
+
+.itemtex p {
+    font-family: "ヒラギノ明朝 Pro";
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #824A3D;
+    text-align: center;
+}
+
+.proitem h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: #824A3D;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.probo {
+    height: 21px;
+    width: 73.5px;
+    float: center;
+    background-color: #93564E;
+    margin: 0 auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.probo:hover {
+    opacity: 0.5;
+}
+
+.probo p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: white;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer {
+    height: 236px;
+    background-color: white;
+}
+
+.footer-left {
+    float: left;
+    height: 50px;
+    padding-top: 92px;
+    padding-left: 100px;
+}
+
+.footer-right {
+    float: right;
+    padding-top: 92px;
+    padding-right: 120px;
+}
+
+.footer-right ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24x;
+    color: #333333;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+ .header-contanior {
+    height: 50px;
+    width: 760px;
+    line-height: 120px;
+    padding-left: 60px;
+    padding-top: 40px;
+    
+}
+    
+.header-logo {
+    float: left;
+    height: 60px;
+}
+    
+ .header-right {
+    float: right;
+    line-height: 50px;
+}
+    
+ .header-right li {
+    float: right;
+    padding-left: 50px;
+}
+    
+.header-right ul {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #333333;
+    }
+    
+.concept {
+     height: 1020px;
+     background-color: #F2E3DC;
+    }
+    
+.concept-contanior {
+    padding-top: 220px;
+    height: 590px;
+    width: 870px;
+    float: right;
+    position: relative;
+}
+    
+.conimg {
+    float: right;
+}
+    
+.con-img {
+    height: 500px;
+}
+    
+.conname {
+    position: absolute;
+    top: 313px;
+    left: 70px;
+}
+    
+.con-name {
+    height: 280px;
+ }
+    
+.contex {
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 340px;
+}
+    
+.con-line {
+    height: 340px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+    
+
+.story {
+    height: 670px;
+    background-color: #F2E3DC;
+}
+    
+.story-contanior {
+    height: 570px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+    
+.storyimg1 {
+    height: 250px;
+}
+    
+.storyimg2 {
+    height: 220px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+    
+.story-contanior h1 {
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 3px;
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    right: 95px;
+}
+    
+ .no1 {
+    height: 220px;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 220px;
+}
+    
+.story-tex {
+    height: 122.6px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+    
+.story-tex p {
+    font-family: "ヒラギノ明朝 Pro";
+    color: #333333;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    text-align: left;
+    z-index: 3;
+}
+    
+.no2 {
+   display: none;
+}
+    
+.mid-img {
+    width: 100%;
+    display: block;
+}
+    
+    .product {
+        height: 1000px;
+        background-color: #DFE1E1;
+    }
+    
+    .product-contanior {
+        height: 731px;
+        width: 79%;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 35px;
+    }
+    
+    
+    .pro-name h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 48px;
+        font-weight: lighter;
+        color: #93564E;
+        letter-spacing: 3px;
+        padding-top: 16px;
+    }
+    
+    .pro-line {
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        left: 23px;
+    }
+    
+    .pro-pros {
+        float: center;
+        display: flex;
+        padding-top: 50px;
+    }
+    
+    .proitem {
+        float: left;
+        width: 253.6px;
+        height: 627px;
+        margin: 0 auto;
+        background-color: white;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .itemimg {
+        height: 138px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 61px;
+    }
+    
+    .itemna {
+        height: 57px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 59px;
+    }
+    
+    .proitem h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: #824A3D;
+        letter-spacing: 1px;
+        border-bottom: 0.25px solid #824A3D;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    
+    .itemtex {
+        height: 67px;
+        padding-top: 55px;
+        float: center;
+    }
+    
+    .itemtex p {
+        font-family: "ヒラギノ明朝 Pro";
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: #824A3D;
+        text-align: center;
+    }
+    
+    .proitem h2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 12px;
+        color: #824A3D;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        margin: 0 auto;
+    }
+    
+    .probo {
+        height: 21px;
+        width: 73.5px;
+        float: center;
+        background-color: #93564E;
+        margin: 0 auto;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .probo:hover {
+        opacity: 0.5;
+    }
+    
+    .probo p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+    .footer {
+        height: 236px;
+        background-color: white;
+    }
+    
+    .footer-left {
+        float: left;
+        height: 50px;
+        padding-top: 92px;
+        padding-left: 100px;
+    }
+    
+    .footer-right {
+        float: right;
+        padding-top: 92px;
+        padding-right: 120px;
+    }
+    
+    .footer-right ul {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24x;
+        color: #333333;
+        letter-spacing: 1px;
+        padding-bottom: 1px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .header-contanior {
+        height: 50px;
+        width: 760px;
+        line-height: 120px;
+        padding-left: 60px;
+        padding-top: 40px;
+        
+    }
+        
+    .header-logo {
+        float: left;
+        height: 60px;
+    }
+        
+     .header-right {
+        float: right;
+        line-height: 50px;
+    }
+        
+     .header-right li {
+        float: right;
+        padding-left: 50px;
+    }
+        
+    .header-right ul {
+        float: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #333333;
+        }
+        
+    .concept {
+         height: 1020px;
+         background-color: #F2E3DC;
+        }
+        
+    .concept-contanior {
+        padding-top: 220px;
+        height: 590px;
+        width: 870px;
+        float: right;
+        position: relative;
+    }
+        
+    .conimg {
+        float: right;
+    }
+        
+    .con-img {
+        height: 500px;
+    }
+        
+    .conname {
+        position: absolute;
+        top: 313px;
+        left: 70px;
+    }
+        
+    .con-name {
+        height: 280px;
+     }
+        
+    .contex {
+        float: left;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 340px;
+    }
+        
+    .con-line {
+        height: 340px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+        
+    
+    .story {
+        height: 670px;
+        background-color: #F2E3DC;
+    }
+        
+    .story-contanior {
+        height: 570px;
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+    }
+        
+    .storyimg1 {
+        height: 250px;
+    }
+        
+    .storyimg2 {
+        height: 220px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+        
+    .story-contanior h1 {
+        color: #333333;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 40px;
+        letter-spacing: 3px;
+        z-index: 3;
+        position: absolute;
+        top: 200px;
+        right: 95px;
+    }
+        
+     .no1 {
+        height: 220px;
+        z-index: 2;
+        position: absolute;
+        right: 0px;
+        top: 220px;
+    }
+        
+    .story-tex {
+        height: 122.6px;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+        
+    .story-tex p {
+        font-family: "ヒラギノ明朝 Pro";
+        color: #333333;
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding-bottom: 3px;
+        text-align: left;
+        z-index: 3;
+    }
+        
+    .no2 {
+       display: none;
+    }
+        
+    .mid-img {
+        width: 100%;
+        display: block;
+    }
+        
+        .product {
+            height: 1000px;
+            background-color: #DFE1E1;
+        }
+        
+        .product-contanior {
+            height: 731px;
+            width: 79%;
+            margin: 0 auto;
+            position: relative;
+            padding-top: 35px;
+        }
+        
+        
+        .pro-name h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 48px;
+            font-weight: lighter;
+            color: #93564E;
+            letter-spacing: 3px;
+            padding-top: 16px;
+        }
+        
+        .pro-line {
+            height: 100px;
+            position: absolute;
+            top: 40px;
+            left: 23px;
+        }
+        
+        .pro-pros {
+            float: center;
+            display: flex;
+            padding-top: 50px;
+        }
+        
+        .proitem {
+            float: left;
+            width: 253.6px;
+            height: 627px;
+            margin: 0 auto;
+            background-color: white;
+            margin-left: 20px;
+            text-align: center;
+        }
+        
+        .itemimg {
+            height: 138px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 61px;
+        }
+        
+        .itemna {
+            height: 57px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 59px;
+        }
+        
+        .proitem h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #824A3D;
+            letter-spacing: 1px;
+            border-bottom: 0.25px solid #824A3D;
+            padding-top: 30px;
+            margin: 0 auto;
+        }
+        
+        .itemtex {
+            height: 67px;
+            padding-top: 55px;
+            float: center;
+        }
+        
+        .itemtex p {
+            font-family: "ヒラギノ明朝 Pro";
+            font-size: 11px;
+            letter-spacing: 1px;
+            color: #824A3D;
+            text-align: center;
+        }
+        
+        .proitem h2 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 12px;
+            color: #824A3D;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            margin: 0 auto;
+        }
+        
+        .probo {
+            height: 21px;
+            width: 73.5px;
+            float: center;
+            background-color: #93564E;
+            margin: 0 auto;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        
+        .probo:hover {
+            opacity: 0.5;
+        }
+        
+        .probo p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px;
+            color: white;
+            line-height: 21px;
+            text-align: center;
+        }
+        
+        .footer {
+            height: 236px;
+            background-color: white;
+        }
+        
+        .footer-left {
+            float: left;
+            height: 50px;
+            padding-top: 92px;
+            padding-left: 100px;
+        }
+        
+        .footer-right {
+            float: right;
+            padding-top: 92px;
+            padding-right: 120px;
+        }
+        
+        .footer-right ul {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24x;
+            color: #333333;
+            letter-spacing: 1px;
+            padding-bottom: 1px;
+        }
+}
